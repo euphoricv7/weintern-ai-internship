@@ -67,3 +67,27 @@
 ---
 
 ## Folder Structure
+```
+aiml-week1-assignment/
+├── data/
+│   ├── raw/                          
+│   └── cleaned/                      
+├── notebooks/                        
+├── outputs/
+│   └── charts/                       
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## How to Run
+1. Open Google Colab — [colab.research.google.com](https://colab.research.google.com)
+2. Upload `notebooks/WEEK1_Student_Performance_Analysis.ipynb`
+3. Upload `data/raw/student_performance.csv`
+4. Click **Runtime → Run All**
+
+---
+
+## Author
+**Vratika Kumawat** | WeIntern AIML Internship 2025
