@@ -1,2 +1,69 @@
-# aiml-week1-assignment
-WeIntern AIML Internship - Week 1 Student Performance Analysis
+# AIML Internship — Week 1 Assignment
+**Organization:** WeIntern Pvt Ltd
+**Intern:** Vratika Kumawat
+
+---
+
+## Task Summary
+| Task | Description | Status |
+|------|-------------|--------|
+| Task 1 | Data Cleaning & Analysis | ✅ Complete |
+| Task 2 | Data Visualization Project | ✅ Complete |
+| Task 3 | Business Insight Report | ✅ Complete |
+
+---
+
+## Dataset
+- **Name:** Student Performance Dataset
+- **Source:** Synthetically generated dataset for internship practice
+- **Rows:** 200 (after cleaning) | **Columns:** 12
+- **Target Variable:** FinalScore
+
+---
+
+## Libraries Used
+- NumPy — numerical operations and array computations
+- Pandas — data loading, cleaning, and analysis
+- Matplotlib — chart creation and customization
+- Seaborn — statistical visualizations
+
+---
+
+## Steps Performed
+1. Loaded and inspected raw dataset
+2. Created feature understanding table
+3. Checked and reported missing values
+4. Removed duplicate rows
+5. Standardized inconsistent categorical labels
+6. Filled missing values with median/Unknown
+7. Checked and confirmed correct data types
+8. Saved cleaned dataset separately
+9. Computed descriptive statistics using NumPy and Pandas
+10. Performed group comparisons by Gender, InternetAccess, ExtraActivities
+11. Created 6 visualizations
+12. Generated business insight report
+
+---
+
+## Key Findings
+- Assignment scores show the strongest correlation with final scores (r = 0.90)
+- Higher attendance is consistently linked with better academic performance
+- Study hours show a moderate positive relationship with final scores (r = 0.74)
+- Gender shows minimal impact on performance (Female: 36.25 vs Male: 37.24)
+- Extra activities show negligible impact on final scores
+
+---
+
+## Visualizations
+| Chart | Type | File |
+|-------|------|------|
+| Distribution of Final Scores | Histogram | outputs/charts/score_distribution.png |
+| Students by Gender | Count Plot | outputs/charts/gender_distribution.png |
+| Final Score by Extra Activities | Box Plot | outputs/charts/score_by_activities.png |
+| Study Hours vs Final Score | Scatter Plot | outputs/charts/study_vs_score.png |
+| Attendance vs Final Score | Scatter Plot | outputs/charts/attendance_vs_score.png |
+| Correlation Heatmap | Heatmap | outputs/charts/correlation_heatmap.png |
+
+---
+
+## Folder Structure
