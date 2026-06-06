@@ -75,6 +75,7 @@ aiml-week1-assignment/
 ├── notebooks/                        
 ├── outputs/
 │   └── charts/                       
+├── screenshots/
 ├── README.md
 └── requirements.txt
 ```
