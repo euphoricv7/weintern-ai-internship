@@ -59,7 +59,9 @@
 |-------|------|------|
 | Distribution of Final Scores | Histogram | outputs/charts/score_distribution.png |
 | Students by Gender | Count Plot | outputs/charts/gender_distribution.png |
+| Internet Access Distribution | Count Plot | outputs/charts/internet_distribution.png |
 | Final Score by Extra Activities | Box Plot | outputs/charts/score_by_activities.png |
+| Final Score by Gender | Box Plot | outputs/charts/score_by_gender.png |
 | Study Hours vs Final Score | Scatter Plot | outputs/charts/study_vs_score.png |
 | Attendance vs Final Score | Scatter Plot | outputs/charts/attendance_vs_score.png |
 | Correlation Heatmap | Heatmap | outputs/charts/correlation_heatmap.png |
@@ -72,7 +74,10 @@ aiml-week1-assignment/
 ├── data/
 │   ├── raw/                          
 │   └── cleaned/                      
-├── notebooks/                        
+├── notebooks/
+│   ├── Task1_Student_Performance_Analysis.ipynb
+│   ├── Task2_Data_Visualization.ipynb
+│   └── Task3_Business_Insight_Report.ipynb
 ├── outputs/
 │   └── charts/                       
 ├── screenshots/
