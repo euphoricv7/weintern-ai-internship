@@ -106,7 +106,7 @@ aiml-week1-assignment/
 3. No dataset needed — report is text only
 4. Click **Runtime → Run All**
 
-**Tip:** To open directly in Colab, replace 
+### **Tip:** To open directly in Colab, replace 
 `github.com` with `githubtocolab.com` in the file URL 
 ---
 
