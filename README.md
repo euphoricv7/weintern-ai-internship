@@ -40,7 +40,7 @@
 8. Saved cleaned dataset separately
 9. Computed descriptive statistics using NumPy and Pandas
 10. Performed group comparisons by Gender, InternetAccess, ExtraActivities
-11. Created 6 visualizations
+11. Created 8 visualizations
 12. Generated business insight report
 
 ---
