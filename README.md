@@ -88,11 +88,26 @@ aiml-week1-assignment/
 ---
 
 ## How to Run
+### Task 1 — Data Cleaning & Analysis
 1. Open Google Colab — [colab.research.google.com](https://colab.research.google.com)
-2. Upload `notebooks/WEEK1_Student_Performance_Analysis.ipynb`
+2. Upload `notebooks/Task1_Student_Performance_Analysis.ipynb`
 3. Upload `data/raw/student_performance.csv`
 4. Click **Runtime → Run All**
 
+### Task 2 — Data Visualization
+1. Open Google Colab — [colab.research.google.com](https://colab.research.google.com)
+2. Upload `notebooks/Task2_Data_Visualization.ipynb`
+3. Upload `data/cleaned/student_performance_cleaned.csv`
+4. Click **Runtime → Run All**
+
+### Task 3 — Business Insight Report
+1. Open Google Colab — [colab.research.google.com](https://colab.research.google.com)
+2. Upload `notebooks/Task3_Business_Insight_Report.ipynb`
+3. No dataset needed — report is text only
+4. Click **Runtime → Run All**
+
+**Tip:** To open directly in Colab, replace 
+`github.com` with `githubtocolab.com` in the file URL 
 ---
 
 ## Author
