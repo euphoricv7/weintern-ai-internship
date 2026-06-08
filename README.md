@@ -13,6 +13,19 @@
 | Task 2 | Data Visualization Project | ✅ Complete |
 | Task 3 | Business Insight Report | ✅ Complete |
 
+
+
+## Task Summary
+
+### Task 1: Student Performance Dataset Analysis
+Performed data cleaning and preprocessing on a student performance dataset by handling missing values, removing duplicate records, standardizing categorical labels, and generating descriptive statistics. A cleaned dataset was prepared for further analysis.
+
+### Task 2: Data Visualization and Analysis
+Created multiple visualizations, including histograms, count plots, box plots, scatter plots, and a correlation heatmap, to explore score distributions, identify trends, and understand relationships between academic and behavioral factors.
+
+### Task 3: Business Insight Report
+Converted analytical findings into actionable business insights by identifying key performance drivers, providing recommendations for educators, discussing limitations, and highlighting the impact of data-driven decision-making in education.
+
 ---
 
 ## Dataset
