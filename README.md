@@ -1,4 +1,4 @@
-# AIML Internship — Week 1 Assignment
+# WeIntern AIML Internship — Week 1 Assignment
 **Organization:** WeIntern Pvt Ltd
 
 
