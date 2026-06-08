@@ -15,8 +15,6 @@
 
 
 
-## Task Summary
-
 ### Task 1: Student Performance Dataset Analysis
 Performed data cleaning and preprocessing on a student performance dataset by handling missing values, removing duplicate records, standardizing categorical labels, and generating descriptive statistics. A cleaned dataset was prepared for further analysis.
 
