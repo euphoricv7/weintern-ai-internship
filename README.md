@@ -22,8 +22,8 @@ weintern-ai-internship/
 
 Exploratory data analysis on a student performance dataset.
 
-| Task | Description | Status |
-|---|---|---|
+| Task | Description | 
+|---|---|
 | Task 1 | Data Cleaning & Analysis |
 | Task 2 | Data Visualization (8 charts) |
 | Task 3 | Business Insight Report |
