@@ -8,7 +8,7 @@ app.secret_key = "student_success_secret_key"
 
 LOG_FILE = "chat_log.txt"
 
-GEMINI_API_KEY = "AQ.Ab8RN6KTVCpb1BNbsyzqrfyjVelGC78wHIalqfdiROFukGEcwQ"
+GEMINI_API_KEY = "your_actual_key_here"
 gemini_client = genai.Client(api_key=GEMINI_API_KEY)
 
 intents_data = load_intents("intents.json")
