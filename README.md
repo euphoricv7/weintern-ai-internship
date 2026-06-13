@@ -23,7 +23,13 @@ weintern-ai-internship/
 
 ## Week 1 — Data Analysis & Visualization
 
-Exploratory data analysis on a student performance dataset. Includes data cleaning, 8 visualizations, and a business insight report.
+Exploratory data analysis on a student performance dataset.
+
+| Task | Description | Status |
+|---|---|---|
+| Task 1 | Data Cleaning & Analysis | Complete |
+| Task 2 | Data Visualization (8 charts) | Complete |
+| Task 3 | Business Insight Report | Complete |
 
 **Tech stack:** Python, Pandas, Matplotlib, Seaborn, Google Colab
 
