@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Success Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="header">
+      <h1>Student Success Assistant</h1>
+      <p>Career guidance, internships, placements & more — all in one place</p>
+    </div>
+
+    <div class="chat-container">
+
+      <!-- Quick topic pills -->
+      <div class="topic-bar">
+        <button class="pill" data-msg="how to find internships">Internships</button>
+        <button class="pill" data-msg="which field should i choose">Career Guide</button>
+        <button class="pill" data-msg="aptitude round tips">Placement Prep</button>
+        <button class="pill" data-msg="how to learn python">Learn Python</button>
+        <button class="pill" data-msg="tcs preparation">TCS Prep</button>
+        <button class="pill" data-msg="i feel demotivated">Motivation</button>
+        <button class="pill" data-msg="linkedin tips">LinkedIn</button>
+      </div>
+
+      <!-- Chat messages -->
+      <div id="chatbox"></div>
+
+      <!-- Input -->
+      <div class="input-area">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Ask about careers, internships, placements..."
+          autocomplete="off"
+        />
+        <button id="sendBtn" title="Send">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      Student Success Assistant &mdash; WeIntern AI/ML Internship Week 2
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

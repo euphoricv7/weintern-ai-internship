@@ -1,0 +1,1166 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi there",
+        "hello how are you",
+        "hey can you help me",
+        "good morning",
+        "good evening",
+        "good afternoon",
+        "hey what's up",
+        "hi i need help",
+        "hello i am a student",
+        "hey i have a question",
+        "hi",
+        "hello",
+        "hey",
+        "start"
+      ],
+      "responses": [
+        "Hey there! I'm your Student Success Assistant. What can I help you with today?",
+        "Hello! Great to see you. Ask me anything about careers, internships, placements, or learning!",
+        "Hi! I'm here to help you succeed. What's on your mind?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye see you later",
+        "goodbye thank you",
+        "i am done for now",
+        "that will be all thanks",
+        "see you tomorrow",
+        "take care goodbye",
+        "i have to go now",
+        "thanks bye",
+        "good night",
+        "i am leaving now",
+        "exit",
+        "quit",
+        "see you"
+      ],
+      "responses": [
+        "Goodbye! Keep learning and keep growing. You've got this!",
+        "See you soon! Remember, consistency beats perfection every time.",
+        "Bye! Come back anytime you need guidance. All the best!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you doing today",
+        "are you doing okay",
+        "how is it going",
+        "how do you feel today",
+        "are you working fine",
+        "you doing good",
+        "how are you",
+        "you okay",
+        "everything going well",
+        "how's it going"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking! I'm fully charged and ready to help you succeed!",
+        "Always good when a student is here to learn! How can I assist you today?",
+        "I'm running perfectly! More importantly, how are YOU doing? Need any guidance?"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "thank you so much",
+        "thanks a lot for your help",
+        "that was really helpful",
+        "you helped me a lot",
+        "many thanks",
+        "i really appreciate your help",
+        "that information was useful",
+        "thanks for the guidance",
+        "thanks",
+        "thank you",
+        "great thanks",
+        "that helped a lot"
+      ],
+      "responses": [
+        "You're very welcome! Keep up the great work!",
+        "Happy to help! That's what I'm here for. Anything else?",
+        "Glad I could help! You're doing amazing, keep going!"
+      ]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "who are you exactly",
+        "what are you",
+        "can you introduce yourself",
+        "tell me about yourself",
+        "what is your name",
+        "are you a bot or human",
+        "are you an ai assistant",
+        "what kind of bot are you",
+        "who made you",
+        "what is this chatbot"
+      ],
+      "responses": [
+        "I'm your Student Success Assistant! I help students with career guidance, internships, placements, learning resources, and more.",
+        "I'm an AI chatbot built to guide students like you through career decisions, skill building, and placement prep!",
+        "Think of me as your academic and career advisor, available 24/7! I cover careers, internships, placements, soft skills, and learning paths."
+      ]
+    },
+    {
+      "tag": "what_can_you_do",
+      "patterns": [
+        "what can you help me with",
+        "what do you know about",
+        "what topics do you cover",
+        "how can you help me as a student",
+        "what are your features",
+        "show me the menu",
+        "what options do i have",
+        "what can i ask you",
+        "what do you do",
+        "what services do you offer"
+      ],
+      "responses": [
+        "I can help you with:\n- Career Guidance\n- Internship Tips\n- Placement Prep\n- Learning Resources\n- Soft Skills\n- Student Struggles\n- College and Academics\nJust ask me anything!",
+        "Here's what I cover:\n- Which career to choose\n- How to find internships\n- Placement rounds prep\n- Best learning platforms\n- Communication and LinkedIn tips\n- Handling exam stress\nAsk away!"
+      ]
+    },
+    {
+      "tag": "compliment_bot",
+      "patterns": [
+        "you are really amazing",
+        "you are such a great assistant",
+        "good job bot",
+        "you are very smart",
+        "you are the best assistant",
+        "i love this chatbot",
+        "this bot is brilliant",
+        "you are doing a great job",
+        "awesome responses",
+        "you are incredible",
+        "this is so helpful"
+      ],
+      "responses": [
+        "Aww, thank you! You just made my day. Now let's make YOUR day better, what do you need?",
+        "That's so kind! I'm just happy to be useful. What can I help you with?",
+        "You're too sweet! Keep that positive energy, it'll take you far in life!"
+      ]
+    },
+    {
+      "tag": "career_after_btech",
+      "patterns": [
+        "what are my career options after completing btech",
+        "what should i do after i graduate from engineering",
+        "i just finished btech what are my options",
+        "what are the best paths after finishing my degree",
+        "what do most engineering students do after college",
+        "i am in final year what should i plan for after btech",
+        "i completed my degree now what",
+        "life after engineering what should i do"
+      ],
+      "responses": [
+        "After B.Tech, you have 4 main paths:\n1. Job: Campus placement or off-campus job search\n2. M.Tech: GATE exam and then IITs/NITs or PSU jobs\n3. MS Abroad: GRE and IELTS and then international universities\n4. MBA: CAT/XAT and then a management career\n\nThere's no one right answer. It depends on your goals, finances, and interests!",
+        "Most students choose one of these:\n- Placement (safest, immediate income)\n- GATE (for M.Tech or PSU security)\n- MS Abroad (if you want global exposure)\n- Startup / Freelancing (if you're entrepreneurial)\n\nWhat matters most to you, stability, growth, or freedom? I can guide you from there!"
+      ]
+    },
+    {
+      "tag": "choose_career_field",
+      "patterns": [
+        "which field should i choose for my career",
+        "how do i choose the right career path",
+        "what career is best suited for me",
+        "i am confused about which career to pick",
+        "can you give me career guidance",
+        "help me choose the right domain in tech",
+        "which tech domain has the best future",
+        "i don't know what career to pursue after engineering",
+        "what are the most in demand careers right now",
+        "which domain should i go into"
+      ],
+      "responses": [
+        "Choosing a career can feel overwhelming, but here's a simple framework:\n1. Identify what you enjoy doing\n2. Check what the market demands\n3. Assess your current skills\n\nPopular options: AI/ML, Web Dev, Data Science, Cybersecurity, Cloud Computing. Want details on any?",
+        "Ask yourself 3 questions:\n- What subjects excite me?\n- What problems do I enjoy solving?\n- Where do I see myself in 5 years?\n\nYour answers will point you toward the right domain. I can guide you deeper, just ask!"
+      ]
+    },
+    {
+      "tag": "career_assessment",
+      "patterns": [
+        "can you help me find the right career for my personality",
+        "i want to take a career assessment test",
+        "suggest a career path based on my interests and skills",
+        "which career suits my personality type",
+        "i need personalized career recommendations",
+        "help me figure out what career is right for me based on what i like",
+        "i want to find my domain in tech based on my strengths",
+        "assess my interests and suggest a career"
+      ],
+      "responses": [
+        "Let's find the right career path for you! Tell me — do you enjoy coding, design, business, data analysis, problem-solving, or helping people? Your answer will help me guide you!",
+        "Great question! To suggest the best fit, tell me what you enjoy most:\n- Coding and building things\n- Design and creativity\n- Business and management\n- Working with data\n- Helping and communicating with people\nWhich sounds most like you?"
+      ]
+    },
+    {
+      "tag": "career_interest_coding",
+      "patterns": [
+        "i really enjoy coding and programming",
+        "coding is my passion and i love it",
+        "i love building software applications from scratch",
+        "programming interests me a lot more than anything else",
+        "i enjoy writing code every single day",
+        "i like software development as a career",
+        "i am deeply interested in coding as a career",
+        "i want a career in programming and software",
+        "i love to build apps and programs through coding",
+        "coding is what i enjoy most of all",
+        "i think i want to be a software developer"
+      ],
+      "responses": [
+        "Since you enjoy coding, here are your best career paths:\n- Web Development (Frontend / Backend / Full Stack)\n- AI / Machine Learning\n- Data Science\n- Mobile App Development (Android / iOS)\n- Cybersecurity\n- Cloud Engineering\n\nAll of these are in high demand! Want a roadmap for any specific one?",
+        "Coding lovers have so many options! Top picks:\n- Full Stack Web Dev: build complete apps\n- AI/ML: work with data and intelligence\n- Cybersecurity: protect systems and networks\n- Mobile Dev: build Android/iOS apps\n\nWhich sounds most exciting to you?"
+      ]
+    },
+    {
+      "tag": "career_interest_design",
+      "patterns": [
+        "i love visual design and creativity above all",
+        "i enjoy doing ui ux work and designing interfaces",
+        "i like making things look visually appealing and beautiful",
+        "i am a creative person who loves aesthetics",
+        "i enjoy visual work and design more than coding",
+        "i want to work specifically in design as my career",
+        "i like designing interfaces and apps visually",
+        "i enjoy graphic design and illustration",
+        "i prefer design over development",
+        "i want to become a ui ux designer"
+      ],
+      "responses": [
+        "Creative people thrive in these fields:\n- UI/UX Design: design apps and websites that users love\n- Product Design: shape how products look and feel\n- Frontend Development: bring designs to life with code\n- Graphic Design: branding, illustrations, visual communication\n- Digital Marketing: content, campaigns, social media\n\nUI/UX is especially hot right now — high demand, great salaries!",
+        "Your creativity is a superpower! Consider:\n- UI/UX Design (Figma, Adobe XD)\n- Graphic Design (Illustrator, Photoshop)\n- Motion Design / Video Editing\n- Frontend Dev (HTML, CSS, JS)\n\nFigma is free and the industry standard for UI/UX. A great place to start!"
+      ]
+    },
+    {
+      "tag": "career_interest_business",
+      "patterns": [
+        "i enjoy business strategy and management more than tech",
+        "i want to be in a leadership and management role",
+        "i like entrepreneurship and building startups",
+        "i enjoy business strategy and planning",
+        "i want to work in marketing or general management",
+        "i like the business side of things not the technical",
+        "i want to run a company someday in the future",
+        "management interests me more than coding does",
+        "i prefer business roles over engineering roles",
+        "i want to become a product manager or entrepreneur"
+      ],
+      "responses": [
+        "Business-minded people have excellent options:\n- Product Management: lead products from idea to launch\n- MBA: open doors to consulting, finance, strategy\n- Marketing: brand building, digital campaigns, growth\n- Consulting: solve business problems across industries\n- Entrepreneurship: build your own startup!\n\nProduct Management is a dream role — combines tech, business, and leadership!",
+        "You sound like a future leader! Great paths:\n- Product Manager (PM): one of the most coveted tech roles\n- Business Analyst: bridge between tech and business teams\n- Consultant: solve problems for multiple clients\n- Entrepreneur: build something from scratch\n\nMBA can unlock many of these doors. Want guidance on any?"
+      ]
+    },
+    {
+      "tag": "ai_vs_webdev",
+      "patterns": [
+        "should i choose ai or web development as a career",
+        "which is better ai or web development for jobs",
+        "what is the difference between ai and web development careers",
+        "i am confused between machine learning and web development",
+        "ai ml or full stack which career should i pick",
+        "is data science better than web development as a career",
+        "comparing ai and web dev which has more scope",
+        "ai versus web development which pays more in india",
+        "i cannot decide between ai and web dev what should i do",
+        "help me compare ai ml and web development careers"
+      ],
+      "responses": [
+        "Great question! Here's a quick comparison:\n\nAI/ML:\n- Math-heavy (statistics, linear algebra)\n- Python focused\n- High demand in product companies\n- Longer learning curve\n\nWeb Development:\n- Faster to get started\n- HTML, CSS, JS, React, Node\n- Freelance and startup friendly\n- Quicker to build visible projects\n\nChoose AI if you love data and math. Choose Web Dev if you love building things people can see!",
+        "Both are excellent! The real question is, do you prefer working with DATA or building USER INTERFACES?\n- Data person → AI/ML/Data Science\n- Builder person → Web Development\nYou can also do both. Full Stack plus AI is a very powerful combo in 2025!"
+      ]
+    },
+    {
+      "tag": "non_tech_careers",
+      "patterns": [
+        "what are careers without any coding at all",
+        "i don't like programming what else can i do",
+        "what are non technical jobs specifically for engineers",
+        "can i get a good job without knowing how to code",
+        "what are business careers available for engineers",
+        "i want a management role after finishing engineering",
+        "tell me about product management as a career path",
+        "what are marketing careers for engineering graduates",
+        "i hate coding what career can i pursue",
+        "non tech options for btech graduates"
+      ],
+      "responses": [
+        "Not into coding? No problem! Here are strong non-tech career paths for engineers:\n- Product Management (PM)\n- Digital Marketing\n- Business Analyst\n- Investment Banking / Finance\n- Supply Chain and Operations\n- HR / Talent Acquisition\n- Technical Writing\n\nYour engineering degree still gives you an edge in logical thinking!",
+        "Many successful people from engineering backgrounds chose non-tech roles!\nTop picks:\n- Product Manager: bridge between tech and business\n- Business Analyst: analyze data, improve processes\n- Consultant: problem solving for companies\n- MBA leading to Finance/Marketing/Strategy\nWant guidance on any specific one?"
+      ]
+    },
+    {
+      "tag": "govt_jobs",
+      "patterns": [
+        "what government jobs can i get after engineering",
+        "tell me about psu jobs for engineers",
+        "how to get into public sector units after btech",
+        "i want to do upsc after engineering",
+        "what are bank jobs available for engineers",
+        "tell me about ssc cgl for engineers",
+        "how to get into defence services after btech",
+        "what civil service options do i have as an engineer",
+        "is a government job good after engineering",
+        "how do i apply for psu jobs"
+      ],
+      "responses": [
+        "Government job options for engineers:\n- GATE → PSU jobs (BHEL, ONGC, NTPC) or M.Tech at IITs\n- UPSC → IAS/IES (Engineering Services Exam)\n- Banking → SBI PO, IBPS PO, RBI\n- Defence → NDA, CDS, AFCAT\n- SSC CGL → Central Government posts\n\nGATE is the most popular route. Start with that if you want PSU security!",
+        "If stability is your priority, government jobs are a great choice!\nKey exams:\n- GATE for PSUs and M.Tech\n- UPSC IES for Engineering Services\n- SSC JE for Junior Engineer posts\n- IBPS/SBI for Bank PO\nStart preparing early, at least 6-12 months before the exam!"
+      ]
+    },
+    {
+      "tag": "mba_guidance",
+      "patterns": [
+        "should i do mba after engineering",
+        "is mba worth it after btech",
+        "tell me about doing mba after engineering",
+        "is mba better than taking a job directly",
+        "when is the right time to do mba",
+        "how to get into iim after engineering",
+        "what are the benefits of mba for engineers",
+        "mba vs job which is better for me",
+        "how to prepare for cat exam for mba",
+        "is cat exam hard to crack"
+      ],
+      "responses": [
+        "MBA can be a great move if you want to shift to management, business, or leadership roles!\n\nWhen to do MBA:\n- Right after college (fresher MBA)\n- After 2-3 years of work experience (recommended!)\n\nKey exams: CAT, XAT, GMAT (abroad)\nTop colleges: IIMs, XLRI, FMS, IIFT\n\nWork experience before MBA gives you better ROI and a stronger profile!",
+        "Before deciding on MBA, ask yourself:\n- Do I want to be in business/management?\n- Am I okay with a 2-year break from work?\n- Can I handle the CAT preparation pressure?\n\nIf yes to all, go for it! CAT preparation takes 6-12 months of serious effort."
+      ]
+    },
+    {
+      "tag": "higher_studies_abroad",
+      "patterns": [
+        "how do i apply for higher studies abroad",
+        "tell me about doing ms in usa",
+        "how to study in germany for free",
+        "how to prepare for ielts for abroad studies",
+        "i want to do masters abroad after engineering",
+        "how to apply for phd abroad",
+        "which universities are best for ms abroad",
+        "how to get scholarship for studying abroad",
+        "tell me about studying in canada for ms",
+        "what is the process for ms abroad",
+        "gre exam details and preparation"
+      ],
+      "responses": [
+        "Higher studies abroad is a fantastic option! Here's the roadmap:\n\nExams needed:\n- GRE (for MS in USA/Canada)\n- IELTS/TOEFL (English proficiency)\n- GMAT (for MBA abroad)\n\nTop destinations: USA, Germany (free tuition!), Canada, UK, Australia\n\nTimeline: Start 12-18 months before your intended intake\nScholarships: DAAD (Germany), Fulbright (USA), Commonwealth (UK)",
+        "Steps for MS abroad:\n1. Decide country and universities (reach, moderate, safe)\n2. Prepare for GRE and TOEFL/IELTS\n3. Build your profile (projects, internships, research)\n4. Write SOP (Statement of Purpose)\n5. Get LORs (Letters of Recommendation)\n6. Apply. Deadlines are usually Dec-Jan for Fall intake.\n\nGermany is a top choice for budget-conscious students. Many programs are free!"
+      ]
+    },
+    {
+      "tag": "competitive_exams",
+      "patterns": [
+        "what competitive exams should i give after engineering",
+        "how do i start gate exam preparation",
+        "how to start gre preparation for ms abroad",
+        "tell me about upsc preparation for engineers",
+        "which competitive exam is best after college",
+        "which entrance exam should i give after btech",
+        "gate vs cat which exam should i take",
+        "tell me about all exams after engineering",
+        "which exam opens the most doors after btech"
+      ],
+      "responses": [
+        "Major competitive exams for engineering students:\n\nFor higher studies:\n- GATE: M.Tech at IITs/NITs and PSU jobs\n- GRE: MS abroad (USA, Canada, etc.)\n- GMAT: MBA abroad\n\nFor jobs/management:\n- CAT/XAT: MBA at IIMs\n- UPSC IES: Engineering Services\n- IBPS/SBI PO: Banking\n- SSC JE: Government Junior Engineer\n\nChoose based on your long-term goal. I can guide you in detail for any specific exam!",
+        "GATE vs CAT, the most common dilemma:\n\nGATE:\n- Technical exam in your engineering branch\n- Leads to M.Tech or PSU jobs\n- Good for those who love their core subject\n- 1 year of focused preparation\n\nCAT:\n- Management entrance for IIMs\n- Leads to MBA and management career\n- Good for those who want business roles\n- 6-12 months of serious preparation\n\nCan't decide? Do a mock test for both and see where you score better!"
+      ]
+    },
+    {
+      "tag": "find_internships",
+      "patterns": [
+        "how do i find internships as a student",
+        "where can i find good internships",
+        "what are the best websites for internship search",
+        "how do i get my first internship",
+        "where to apply for internships online",
+        "how to find remote internships",
+        "what are the best internship platforms in india",
+        "how do i apply for internships as a fresher",
+        "i need an internship where do i start",
+        "best apps for finding internships"
+      ],
+      "responses": [
+        "Here are the best platforms to find internships:\n\nTop Sites:\n- Internshala: most popular in India\n- LinkedIn: professional and referrals\n- Naukri / Shine: job and internship listings\n- AngelList: startup internships\n- LeetCode Jobs / Unstop: tech roles\n- Company websites: apply directly!\n\nTip: Apply to at least 15-20 internships. More applications equals more chances!",
+        "Finding internships means being proactive!\n\nSteps:\n1. Update your resume (1 page, clean format)\n2. Create/update LinkedIn profile\n3. Search on Internshala, LinkedIn, Naukri\n4. Reach out to seniors for referrals\n5. Follow companies you like on LinkedIn\n6. Apply consistently. Don't wait for the perfect one!"
+      ]
+    },
+    {
+      "tag": "internship_resume",
+      "patterns": [
+        "how do i make a resume for internship application",
+        "what should i put in my internship resume",
+        "give me internship resume tips",
+        "what is the best resume format for students",
+        "how to write a cv for internship with no experience",
+        "how to build a fresher resume from scratch",
+        "what sections should my student resume have",
+        "how to make my resume stand out as a fresher",
+        "what should a first year student resume look like"
+      ],
+      "responses": [
+        "Resume tips for internship applications:\n\nKeep it to 1 page.\nSections to include:\n- Contact Info and LinkedIn\n- Objective (2 lines about your goal)\n- Education (college, branch, CGPA)\n- Skills (Python, SQL, etc.)\n- Projects (2-3 strong ones!)\n- Certifications (Coursera, NPTEL)\n- Extra-curriculars\n\nAvoid: spelling errors, fancy colors, photos\nUse: clean template from Overleaf, Canva, or Novoresume",
+        "As a fresher, your PROJECTS are your experience!\nMake sure each project has:\n- What problem it solved\n- What tech you used\n- A GitHub link\n\nAlso add online certifications. Even free ones from Coursera or NPTEL show initiative!\nUse ATS-friendly templates so your resume gets past automated screening."
+      ]
+    },
+    {
+      "tag": "internship_preparation",
+      "patterns": [
+        "how do i prepare for an internship interview",
+        "what should i study specifically for internship",
+        "what technical skills do i need for a tech internship",
+        "how to prepare for internship at a good company",
+        "what do companies ask in internship interviews",
+        "how do i get ready for my first internship interview",
+        "internship interview preparation guide",
+        "what questions are asked in internship interviews"
+      ],
+      "responses": [
+        "How to prepare for internship interviews:\n\nTechnical:\n- Know basics of your domain (Python/Web Dev/ML)\n- Practice 20-30 easy LeetCode problems\n- Understand your projects deeply\n\nAptitude:\n- Practice on IndiaBix, PrepInsta\n- Focus on quant, logical reasoning, verbal\n\nHR:\n- Prepare your self-introduction\n- Know why you want THIS company\n- Practice common HR questions",
+        "The most important thing for internship prep:\nKnow your resume inside-out!\nEvery line on your resume is fair game for questions.\n\nAlso:\n- Do 1-2 personal projects in your domain\n- Get a relevant certification\n- Practice explaining technical concepts simply\n- Research the company before the interview!"
+      ]
+    },
+    {
+      "tag": "internship_platforms",
+      "patterns": [
+        "tell me about internshala for finding internships",
+        "how to use linkedin to find internships effectively",
+        "what is unstop and how does it help students",
+        "tell me about forage virtual internships",
+        "which app is best for finding internships in india",
+        "tell me about wellfound for startup internships",
+        "best platforms for getting internships in india",
+        "how does forage virtual internship work"
+      ],
+      "responses": [
+        "Best platforms by category:\n\nIndia-specific:\n- Internshala: #1 for Indian students\n- Unstop: competitions and internships\n- LetsIntern, HelloIntern\n\nGlobal:\n- LinkedIn: best for networking and referrals\n- Wellfound (AngelList): startups\n- Forage: free virtual internships from top MNCs!\n\nForage is underrated. You get real project experience from companies like JP Morgan, Goldman Sachs, and Google!",
+        "My top 3 recommendations:\n1. Internshala: easiest to start, hundreds of listings\n2. LinkedIn: set job alerts, connect with recruiters\n3. Forage: free virtual experience programs\n\nUse all three simultaneously for best results!"
+      ]
+    },
+    {
+      "tag": "first_internship_tips",
+      "patterns": [
+        "give me tips for surviving my first internship",
+        "how should i behave and work during my internship",
+        "what should i do to make the most of my internship",
+        "what are the dos and don'ts of a professional internship",
+        "how do i make a good impression during my internship",
+        "what is internship etiquette i should follow",
+        "i just got my first internship what should i do",
+        "how to succeed in your first internship",
+        "first internship advice for college students"
+      ],
+      "responses": [
+        "Tips to crush your first internship:\n\nDO:\n- Ask questions. Curiosity is valued!\n- Take notes in every meeting\n- Meet deadlines, even if the work isn't perfect\n- Connect with colleagues on LinkedIn\n- Ask for feedback regularly\n\nDON'T:\n- Stay silent if you're stuck. Ask for help!\n- Miss deadlines without communicating\n- Spend time on your phone during work hours\n\nBonus: Ask for a Letter of Recommendation before you leave!",
+        "The golden rule of internships: Be Proactive!\n\nDon't wait to be told what to do. Ask your manager if there's anything more you can help with.\n\nAlso:\n- Document everything you build (for your portfolio)\n- Learn from everyone around you\n- Treat it like a job interview. Many internships convert to full-time offers!"
+      ]
+    },
+    {
+      "tag": "aptitude_round",
+      "patterns": [
+        "tell me about the aptitude round in placements",
+        "what is the aptitude round and what does it test",
+        "how do i prepare for aptitude round",
+        "give me aptitude round tips and strategy",
+        "how to crack quantitative aptitude for placements",
+        "how to prepare logical reasoning for campus placements",
+        "what topics are important for aptitude in placement tests",
+        "which website is good for aptitude practice",
+        "how to improve my aptitude score for campus placements",
+        "i need help with aptitude preparation for companies",
+        "aptitude round preparation guide for freshers"
+      ],
+      "responses": [
+        "Aptitude is the first filter in most placement drives! Here's how to crack it:\n\nKey Topics:\n- Quantitative: Percentages, Profit/Loss, Time and Work, Speed, Probability\n- Logical: Series, Blood Relations, Puzzles, Syllogisms\n- Verbal: Reading Comprehension, Error Spotting, Fill in the Blanks\n\nResources:\n- IndiaBix: free practice questions\n- PrepInsta: company-specific aptitude\n- RS Aggarwal book (classic!)\n\nPractice 30 mins daily for 30 days for massive improvement!",
+        "Aptitude shortlisting tip: Speed and Accuracy both matter!\n\nStrategy:\n1. Learn shortcuts for calculations\n2. Practice mock tests under time pressure\n3. Focus on your weak areas\n4. Do company-specific papers from PrepInsta\n\nMost companies use AMCAT, eLitmus, or their own test. Practice sectional mocks!"
+      ]
+    },
+    {
+      "tag": "technical_round",
+      "patterns": [
+        "how do i prepare for the technical interview round",
+        "what is asked in a technical interview at companies",
+        "how to crack the technical round in placements",
+        "give me technical interview tips and strategy",
+        "what core subjects are asked in technical interviews",
+        "how to prepare data structures for technical interview",
+        "what should i study for a technical round at a company",
+        "technical interview preparation for freshers",
+        "what topics come in the technical round"
+      ],
+      "responses": [
+        "Technical round preparation:\n\nFor CS/IT students:\n- Data Structures and Algorithms (most important!)\n- DBMS: SQL queries, normalization\n- OS: processes, threads, scheduling\n- CN: OSI model, TCP/IP, HTTP\n- OOPs: concepts and implementation\n- Your resume projects (explain every line!)\n\nPractice:\n- LeetCode (Easy to Medium)\n- GeeksforGeeks for topic-wise problems\n- HackerRank for language practice",
+        "Top technical interview tips:\n\nRule #1: Think out loud! Interviewers want to see your thought process.\n\n- Start with brute force, then optimize\n- Ask clarifying questions before coding\n- Test your code with examples\n- Know time and space complexity of your solutions\n- Prepare 2-3 projects you can explain deeply\n\nMost important topics: Arrays, Strings, Linked Lists, Trees, Dynamic Programming"
+      ]
+    },
+    {
+      "tag": "hr_interview",
+      "patterns": [
+        "how do i prepare for the hr interview round",
+        "what questions are asked in hr round",
+        "how to answer tell me about yourself in an interview",
+        "why should we hire you how do i answer that",
+        "how to talk about my strengths and weaknesses",
+        "give me hr interview tips for placements",
+        "what are common behavioral interview questions",
+        "how to handle hr round in campus placements",
+        "hr round preparation tips for freshers"
+      ],
+      "responses": [
+        "HR round is about personality and cultural fit! Common questions:\n\nMust-prepare:\n- Tell me about yourself (30-60 sec pitch)\n- Why this company?\n- Strengths and weaknesses\n- Where do you see yourself in 5 years?\n- Why should we hire you?\n- Tell me about a challenge you overcame\n\nTips:\n- Be honest. Don't fake it.\n- Research the company before the interview\n- Always have 2-3 questions ready to ask them\n- Dress professionally, even for virtual interviews!",
+        "The 'Tell me about yourself' formula:\n\nPRESENT → PAST → FUTURE\n\nExample: 'I'm [Name], a final-year [Branch] student at [College]. I've interned at [X] and built projects in [Y]. I'm passionate about [Z] and excited to contribute to [Company] because [reason].'\n\nPractice this until it sounds natural, not memorized!"
+      ]
+    },
+    {
+      "tag": "group_discussion",
+      "patterns": [
+        "how do i perform well in a group discussion",
+        "give me gd tips for placements",
+        "how to prepare for group discussion round",
+        "what are good group discussion topics",
+        "how to start a group discussion confidently",
+        "what is evaluated in a gd round by companies",
+        "how to handle a heated group discussion",
+        "group discussion tips for campus placements",
+        "how to speak well in gd round"
+      ],
+      "responses": [
+        "Group Discussion (GD) tips:\n\nWhat evaluators look for:\n- Communication clarity\n- Logical thinking\n- Leadership vs aggression (big difference!)\n- Listening skills\n- Relevant knowledge\n\nWinning strategies:\n- Start the GD if you know the topic well\n- Use facts and examples to support points\n- Acknowledge others' views before disagreeing\n- Summarize the discussion at the end\n- Maintain calm even in heated debates",
+        "GD Dos and Don'ts:\n\nDO:\n- Enter early in discussion\n- Speak clearly and with confidence\n- Keep eye contact with the group\n\nDON'T:\n- Interrupt aggressively\n- Dominate the whole conversation\n- Go completely silent\n- Use extreme or controversial statements\n\nPractice with friends on current affairs topics!"
+      ]
+    },
+    {
+      "tag": "coding_round",
+      "patterns": [
+        "how do i prepare for the coding round in placements",
+        "what is asked in an online coding test",
+        "how to crack hackerrank coding test",
+        "how to prepare for competitive programming for placements",
+        "give me leetcode preparation tips and strategy",
+        "how to study dsa for placement coding rounds",
+        "what topics are most asked in placement coding tests",
+        "coding round preparation guide for freshers",
+        "how many leetcode problems should i solve"
+      ],
+      "responses": [
+        "Coding round prep strategy:\n\n60-Day Plan:\n- Week 1-2: Arrays, Strings, Hashing\n- Week 3-4: Linked Lists, Stacks, Queues\n- Week 5-6: Trees, Graphs, Recursion\n- Week 7-8: Dynamic Programming, Greedy\n\nPlatforms:\n- LeetCode: industry standard\n- HackerRank: good for beginners\n- Codeforces: competitive programming\n- GeeksforGeeks: concept and problems\n\nSolve 2-3 problems daily. Consistency beats cramming!",
+        "For placement coding rounds:\n\nFocus on:\n- Easy and Medium LeetCode (80% of company tests)\n- Time complexity awareness\n- Clean, readable code\n- Edge cases (empty input, negatives, etc.)\n\nMost asked topics: Two Pointers, Sliding Window, BFS/DFS, DP on arrays, Binary Search\n\nDo company-specific LeetCode lists. Search 'Amazon LeetCode questions' etc.!"
+      ]
+    },
+    {
+      "tag": "placement_timeline",
+      "patterns": [
+        "how do i prepare for campus placements in general",
+        "give me a general placement preparation guide",
+        "how do i get placed in a good company",
+        "what is the full placement preparation roadmap",
+        "when do campus placements start in college",
+        "how does the campus placement process work",
+        "what should i do to prepare for placements",
+        "give me placement tips for final year students",
+        "how to crack campus placements overall",
+        "what is the timeline for placement preparation",
+        "placement season preparation from scratch"
+      ],
+      "responses": [
+        "Typical placement timeline:\n\nFor final year students:\n- June-July: Resume preparation, skill building\n- August-September: Campus placement season begins\n- September-December: Peak placement period (most companies)\n- Jan-March: Off-campus drives for remaining students\n\nDon't wait for August. Start preparing NOW!\n\nOff-campus options: LinkedIn, Naukri, company portals, campus referrals",
+        "Placement preparation timeline (starting 6 months before):\n\n6 months before: Start DSA and Aptitude\n4 months before: Build/polish projects and resume\n2 months before: Mock interviews and company research\n1 month before: Intensive coding practice\nWeek of: Sleep well, stay calm, be confident!"
+      ]
+    },
+    {
+      "tag": "product_based_companies",
+      "patterns": [
+        "how do i get into product based companies",
+        "how to prepare for google microsoft amazon interviews",
+        "what is needed for faang companies",
+        "how to crack product company placements",
+        "what skills do product companies look for",
+        "how is product based company interview different from service",
+        "i want to work at a top product company",
+        "how to prepare for tier 1 product companies",
+        "what do google and microsoft look for in freshers",
+        "give me product based company preparation guide"
+      ],
+      "responses": [
+        "Product-based companies (Google, Microsoft, Amazon, Flipkart, etc.) have the most rigorous hiring process but offer the best packages!\n\nWhat they look for:\n- Strong DSA skills (this is the #1 filter)\n- Problem solving under pressure\n- System design (for experienced, sometimes for freshers too)\n- Clear communication of thought process\n\nPreparation roadmap:\n1. Master DSA — LeetCode Easy + Medium (minimum 150 problems)\n2. Focus on: Arrays, Trees, Graphs, DP, Binary Search\n3. Practice on LeetCode, Codeforces\n4. Do mock interviews on Pramp or Interviewing.io\n5. Study system design basics\n\nTimeline: 4-6 months of serious prep. Start early!",
+        "To crack product companies, DSA is everything!\n\nTop product companies in India for freshers:\n- Tier 1: Google, Microsoft, Amazon, Adobe, Uber\n- Tier 2: Flipkart, Swiggy, Zomato, Razorpay, CRED\n- Tier 3: Smaller startups with good tech culture\n\nKey difference from service companies:\n- No fixed syllabus — they test raw problem solving\n- Coding rounds are harder (Medium to Hard LeetCode)\n- Multiple rounds: DSA + System Design + Behavioral\n\nBuild strong GitHub profile + competitive programming record. That's what sets you apart!"
+      ]
+    },
+    {
+      "tag": "service_based_companies",
+      "patterns": [
+        "how do i prepare for service based companies",
+        "how to get into tcs infosys wipro accenture",
+        "what is the hiring process for it service companies",
+        "how to crack service company placements",
+        "tell me about mass recruiter company preparation",
+        "how to prepare for tcs infosys cognizant",
+        "what do service based companies look for in freshers",
+        "i want to join a service based company like tcs",
+        "how is service company interview different from product company",
+        "give me service based company preparation guide"
+      ],
+      "responses": [
+        "Service-based companies (TCS, Infosys, Wipro, Accenture, Cognizant, Capgemini) are mass recruiters — they hire thousands of freshers every year!\n\nGeneral hiring process:\n1. Online Assessment (Aptitude + Verbal + Coding)\n2. Technical Interview (basics of CS subjects)\n3. HR Interview\n\nWhat they look for:\n- Good aptitude scores\n- Basic coding ability\n- Strong communication skills\n- Positive attitude and learning mindset\n\nPreparation:\n- Aptitude: IndiaBix, PrepInsta (company-specific papers!)\n- Coding: HackerRank, 2 easy problems daily\n- CS Basics: DBMS, OS, OOPs, CN\n- Communication: practice speaking confidently",
+        "Service company tips:\n\nTCS → Focus on NQT (Numerical, Verbal, Reasoning, Coding). Verbal section is heavy!\nInfosys → Unique pseudocode section. Register on InfyTQ platform!\nWipro → Aptitude + Essay writing + Coding\nAccenture → Abstract reasoning + Communication is heavily weighted\nCognizant → GenC and GenC Elevate roles (Elevate needs stronger coding)\n\nGeneral rule: Service companies are more forgiving on CGPA but strict on communication skills. Practice speaking clearly and confidently!"
+      ]
+    },
+    {
+      "tag": "non_tech_company_prep",
+      "patterns": [
+        "how do i prepare for non technical company placements",
+        "how to get into consulting or management companies after engineering",
+        "what is the hiring process for non tech companies",
+        "how to crack placements at marketing or finance companies",
+        "i want a non tech job how do i prepare for it",
+        "how to prepare for business analyst roles specifically",
+        "how to get into consulting firms from an engineering background",
+        "what do non tech companies look for in engineers",
+        "give me non technical placement preparation guide",
+        "how to prepare for product management roles as a fresher"
+      ],
+      "responses": [
+        "Non-tech company placements focus more on business acumen and communication than coding!\n\nTypes of non-tech roles for engineers:\n- Business Analyst (BA)\n- Product Manager (PM)\n- Management Consultant\n- Digital Marketing\n- Finance / Investment Banking\n- Operations / Supply Chain\n\nWhat they look for:\n- Logical and analytical thinking\n- Strong communication\n- Case solving ability (for consulting)\n- Leadership and teamwork\n- Business awareness\n\nPreparation:\n- Practice case studies (for consulting: McKinsey, BCG style)\n- Read business news daily (Economic Times, Mint)\n- Prepare strong story-based HR answers\n- Build non-tech projects or internships on resume",
+        "For non-tech placements:\n\nConsulting (Deloitte, McKinsey, BCG off-campus):\n- Case interview prep is key\n- Practice on CaseCoach, PrepLounge\n- Read business case studies\n\nProduct Management:\n- Understand product thinking (read Inspired by Marty Cagan)\n- Practice product design questions\n- Build a portfolio of product teardowns\n\nFinance / Banking:\n- Learn financial modeling basics\n- Prepare for aptitude heavy tests\n- Network through LinkedIn and alumni\n\nYour engineering degree is an advantage — companies love analytical engineers in business roles!"
+      ]
+    },
+    {
+      "tag": "learn_python",
+      "patterns": [
+        "how do i learn python from scratch",
+        "what are the best python resources for beginners",
+        "give me a python learning roadmap",
+        "how to start learning python as a beginner",
+        "what is the best python course online for free",
+        "how long does it take to learn python properly",
+        "where can i learn python for free online",
+        "python tutorial for absolute beginners",
+        "best way to learn python quickly"
+      ],
+      "responses": [
+        "Python learning roadmap for beginners:\n\nStep 1 - Basics:\n- Variables, data types, loops, functions\n- Resource: Python.org docs, W3Schools, CS50P (free!)\n\nStep 2 - Intermediate:\n- OOPs, file handling, libraries (NumPy, Pandas)\n\nStep 3 - Apply it:\n- Build small projects: calculator, todo app, web scraper\n\nBest free courses:\n- CS50P (Harvard): absolutely free!\n- Kaggle Python course: interactive\n- Automate the Boring Stuff: practical Python book (free online!)",
+        "Best Python resources (free!):\n- CS50P by Harvard (YouTube / edX): best structured course\n- W3Schools Python: quick reference\n- Kaggle.com: hands-on with datasets\n- 100 Days of Code Python (Udemy, often Rs 399)\n\nMy advice: Don't just watch, CODE every day. Even 30 mins of practice beats 3 hours of watching!"
+      ]
+    },
+    {
+      "tag": "learn_dsa",
+      "patterns": [
+        "how do i learn data structures and algorithms",
+        "give me a dsa learning roadmap",
+        "how to start learning dsa for placements",
+        "where can i practice dsa problems online",
+        "what are the best dsa resources for beginners",
+        "how long does it take to learn dsa properly",
+        "how to study algorithms effectively for interviews",
+        "what is the best way to learn data structures",
+        "dsa preparation guide for placement interviews"
+      ],
+      "responses": [
+        "DSA Learning Roadmap:\n\nPhase 1 - Basics:\nArrays → Strings → Linked Lists → Stacks → Queues\n\nPhase 2 - Intermediate:\nTrees → Graphs → Hashing → Recursion\n\nPhase 3 - Advanced:\nDynamic Programming → Greedy → Backtracking\n\nResources:\n- Striver's A2Z DSA Sheet (free, amazing!)\n- Love Babbar DSA Sheet\n- GeeksforGeeks DSA course\n- LeetCode for practice\n\nTimeline: 3-6 months with daily practice",
+        "Best DSA resources for beginners:\n\n1. Striver's A2Z Sheet: most structured, free!\n2. Abdul Bari (YouTube): best algorithm explanations\n3. Apna College (YouTube): Hindi and English, beginner friendly\n4. GeeksforGeeks: topic-wise articles\n\nStart with arrays and don't skip to hard problems too early. Build foundation first!"
+      ]
+    },
+    {
+      "tag": "learn_ai_ml",
+      "patterns": [
+        "how do i learn artificial intelligence from scratch",
+        "give me a machine learning learning roadmap",
+        "what are the best ai resources for complete beginners",
+        "how to start learning machine learning from scratch",
+        "tell me about deep learning courses online",
+        "how to get into data science and ai field",
+        "what should i learn first for ai and ml",
+        "how to learn nlp for beginners",
+        "ai and machine learning beginner guide",
+        "Ai",
+        "ai",
+        "AI"
+      ],
+      "responses": [
+        "AI/ML Learning Roadmap:\n\nPrerequisites:\n- Python (NumPy, Pandas, Matplotlib)\n- Basic Statistics and Linear Algebra\n\nCore ML:\n- Supervised learning (regression, classification)\n- Unsupervised (clustering)\n- Model evaluation, overfitting\n\nDeep Learning:\n- Neural Networks → CNNs → RNNs → Transformers\n\nBest Resources:\n- Andrew Ng's ML Course (Coursera): THE classic\n- Fast.ai: practical deep learning (free!)\n- Kaggle: learn and compete simultaneously",
+        "Free AI/ML resources:\n\n1. Andrew Ng's Machine Learning Specialization (Coursera, audit free!)\n2. Google's ML Crash Course: free, practical\n3. Fast.ai: best for deep learning\n4. Kaggle Learn: micro-courses and real datasets\n5. 3Blue1Brown Neural Networks (YouTube): visual intuition\n\nStart with Python and Andrew Ng's course. Those two together give a solid foundation!"
+      ]
+    },
+    {
+      "tag": "learn_web_dev",
+      "patterns": [
+        "how do i learn web development from scratch",
+        "give me a web development roadmap for beginners",
+        "should i learn frontend or backend first",
+        "how to become a full stack developer",
+        "how to learn html css and javascript together",
+        "what are the best resources to learn react js",
+        "how to start learning nodejs for backend development",
+        "where can i learn web development for free",
+        "i want to learn web dev where do i start",
+        "teach me web development step by step",
+        "web development learning path for complete beginners"
+      ],
+      "responses": [
+        "Web Development Roadmap:\n\nFrontend:\nHTML → CSS → JavaScript → React.js\n\nBackend:\nNode.js + Express → Databases (SQL/MongoDB)\n\nFull Stack:\nFrontend + Backend + Deployment (Vercel, Railway)\n\nResources:\n- The Odin Project: completely free, project-based!\n- freeCodeCamp: structured curriculum\n- CS50W (Harvard): free web dev course\n- Traversy Media (YouTube): practical tutorials\n\nBuild projects from day 1. A portfolio beats a certificate!",
+        "Best free web dev resources:\n\n1. The Odin Project: best structured free course\n2. freeCodeCamp: certifications and projects\n3. MDN Web Docs: reference for everything\n4. Traversy Media (YouTube): project-based learning\n5. Full Stack Open (University of Helsinki): free!\n\nFrontend roadmap: HTML (1 week) → CSS (2 weeks) → JS (1 month) → React (1 month)"
+      ]
+    },
+    {
+      "tag": "learn_sql",
+      "patterns": [
+        "how do i learn sql from scratch",
+        "what are the best sql resources for beginners",
+        "how to learn databases for data science roles",
+        "give me sql learning tips and roadmap",
+        "how to practice mysql as a beginner",
+        "what sql topics are asked in placement interviews",
+        "where can i practice sql problems online for free",
+        "sql learning guide for students",
+        "best way to get good at sql quickly"
+      ],
+      "responses": [
+        "SQL is one of the most in-demand skills. Learn it!\n\nTopics to cover:\n- SELECT, WHERE, GROUP BY, ORDER BY\n- JOINs (Inner, Left, Right, Full)\n- Subqueries and CTEs\n- Indexes, Normalization\n- Window functions (advanced)\n\nFree Resources:\n- SQLZoo: interactive, best for beginners\n- Mode SQL Tutorial: free\n- W3Schools SQL: quick reference\n- LeetCode SQL problems: for interviews\n- HackerRank SQL: practice problems",
+        "Why learn SQL? Almost every data/analyst/developer job needs it!\n\nQuick start:\n1. Install MySQL or use SQLite (simpler)\n2. Follow W3Schools SQL tutorial\n3. Practice on HackerRank SQL\n4. Solve LeetCode SQL problems\n\nYou can learn basic SQL in 2 weeks, then practice consistently!"
+      ]
+    },
+    {
+      "tag": "learning_general",
+      "patterns": [
+        "what can i learn from you today",
+        "give me some general learning resources",
+        "i want to learn something new but don't know what",
+        "what learning paths do you suggest for students",
+        "where should i start learning tech skills",
+        "what study resources do you have available",
+        "give me a list of topics i can learn",
+        "what topics can you teach me about",
+        "i need some learning materials to get started"
+      ],
+      "responses": [
+        "Here are the topics I can guide you on:\n\n- Python\n- DSA (Data Structures & Algorithms)\n- AI / Machine Learning\n- Web Development\n- SQL & Databases\n- Free learning platforms\n\nJust ask about any of these and I'll give you a full roadmap!",
+        "I can help you learn:\n- Python (beginner to advanced)\n- DSA for placements\n- AI/ML from scratch\n- Web Development (frontend + backend)\n- SQL for data roles\n\nWhich one are you interested in? I'll give you a tailored roadmap!"
+      ]
+    },
+    {
+      "tag": "free_learning_platforms",
+      "patterns": [
+        "what are the best free learning platforms for students",
+        "where can i find free courses online",
+        "is coursera really free to audit courses",
+        "tell me about free udemy courses for students",
+        "what are good nptel courses for engineering students",
+        "which websites have free certifications for college students",
+        "tell me about mooc platforms for online learning",
+        "are edx courses free to take",
+        "best free certification websites for students"
+      ],
+      "responses": [
+        "Best FREE learning platforms for students:\n\nCompletely Free:\n- Kaggle: ML and Data Science\n- freeCodeCamp: Web Dev and Python\n- The Odin Project: Web Dev\n- CS50 (Harvard): CS fundamentals\n- NPTEL: Indian university courses, great for GATE too!\n- Google Skillshop: Google tools certification\n\nAffordable / Free Audit:\n- Coursera: audit any course for free!\n- edX: same, free audit option\n- Udemy: wait for sales (Rs 399-499 for any course!)",
+        "Hidden gems for free learning:\n\n1. NPTEL (nptel.ac.in): IIT professors, free, recognized certificates\n2. Forage (theforage.com): free virtual internships from top companies!\n3. Microsoft Learn: free Azure and AI certifications\n4. Google Cloud Skills Boost: free cloud learning\n5. MIT OpenCourseWare: free MIT lecture materials\n\nCertificates from these add real value to your resume!"
+      ]
+    },
+    {
+      "tag": "self_introduction",
+      "patterns": [
+        "how do i introduce myself in an interview",
+        "give me self introduction tips for interviews",
+        "how should i introduce myself as a fresher",
+        "what is the best way to give a self introduction",
+        "how to introduce myself for an internship interview",
+        "tell me the format for a good self introduction",
+        "how long should my self introduction be",
+        "self introduction for campus placement interview",
+        "how to make a strong first impression in an interview"
+      ],
+      "responses": [
+        "A great self-introduction follows this structure:\n\nFormula: NAME → EDUCATION → SKILLS → EXPERIENCE → GOAL\n\nExample: 'My name is [Name]. I'm a final-year B.Tech [Branch] student from [College]. I have a strong interest in [Domain] and have worked on projects like [Project]. I've also completed an internship at [Company] where I [contribution]. I'm now looking to [career goal].'\n\nKeep it to 60 seconds and practice until it feels natural!",
+        "Tips for a great self-introduction:\n\nDO:\n- Start with confidence, not Um...\n- Mention 1-2 concrete achievements or projects\n- Tailor it to the job/company\n- End with enthusiasm about the opportunity\n\nDON'T:\n- Read from memory robotically\n- Be too long (over 90 seconds)\n- Start with your family background in professional settings!"
+      ]
+    },
+    {
+      "tag": "improve_communication",
+      "patterns": [
+        "how do i improve my communication skills as a student",
+        "give me public speaking tips for students",
+        "how to speak more confidently in english",
+        "how to improve my presentation skills for interviews",
+        "how to overcome fear of speaking in public",
+        "give me tips to communicate better in professional settings",
+        "how do i improve my english speaking skills",
+        "communication skills improvement guide for students",
+        "how to speak clearly and confidently"
+      ],
+      "responses": [
+        "Improving communication skills:\n\nDaily habits:\n- Read English articles or books for 20 mins daily\n- Watch English content (news, TED Talks, podcasts)\n- Practice speaking in a mirror\n- Record yourself speaking and review it\n\nStructured practice:\n- Join Toastmasters or a college debate club\n- Present to friends and family regularly\n- Participate in seminars and college events\n\nKey skill: Clarity beats Vocabulary. Speak slowly and clearly!",
+        "Communication is a skill that improves with practice, not talent!\n\nTop 5 habits:\n1. Think before you speak (pause is okay!)\n2. Use simple words. Avoid jargon.\n3. Match your body language to your words\n4. Listen actively. Don't just wait for your turn.\n5. Ask 'Did that make sense?' to confirm understanding\n\nWatch TED Talks daily, not just for content, but to observe HOW great communicators speak!"
+      ]
+    },
+    {
+      "tag": "start_conversation",
+      "patterns": [
+        "how do i start a conversation with someone new professionally",
+        "give me conversation starters for networking events",
+        "how do i talk to people i don't know at events",
+        "how to improve my social and networking skills",
+        "how do i approach seniors for professional networking",
+        "how to start talking to strangers in a professional setting",
+        "give me tips on starting conversations at college events",
+        "i am shy how do i network with people",
+        "how to break the ice with professionals"
+      ],
+      "responses": [
+        "Starting conversations feels awkward at first, but gets easier with practice!\n\nEasy starters:\n- Ask a question: 'How did you get into [field]?'\n- Give a genuine compliment: 'I really liked your presentation on [topic]'\n- Find common ground: 'I saw you also went to [event]...'\n- Ask for advice: People love giving advice. It works every time!\n\nAt networking events or college:\n- Introduce yourself with name and context\n- Ask open-ended questions (not yes/no)\n- Listen more than you talk. People remember good listeners!",
+        "The easiest way to start any conversation:\n\nAsk for HELP or ADVICE.\n\nExample: 'Excuse me, I noticed you work in [field]. I'm currently exploring that area. Could I ask you a quick question?'\n\nPeople almost never say no to this. It makes them feel valued and opens the door naturally!"
+      ]
+    },
+    {
+      "tag": "networking_tips",
+      "patterns": [
+        "give me professional networking tips for students",
+        "how do i build my professional network from scratch",
+        "how do i meet people from the tech industry",
+        "how to use alumni network effectively for jobs",
+        "how do i reach out to seniors on linkedin for advice",
+        "what is an informational interview and how to do it",
+        "how do i network at college events and hackathons",
+        "how to get referrals through professional networking",
+        "how to connect with industry professionals as a student"
+      ],
+      "responses": [
+        "Networking tips for students:\n\nOnline:\n- LinkedIn: connect with alumni from your college\n- Twitter/X: follow and engage with professionals in your field\n- GitHub: show your work, get noticed\n\nOffline:\n- Attend hackathons, conferences, workshops\n- Talk to your professors. They have industry connections.\n- Ask seniors for a 15-min chat about their career path\n\nGolden rule: Give before you take! Share, help, contribute, then ask for favors.",
+        "The most underused networking strategy:\n\nReach out to alumni via LinkedIn!\n\nMessage template: 'Hi [Name], I'm [Your Name], a [Year] student at [Your College]. I came across your profile and was really inspired by your journey in [field]. Would you be open to a brief 10-minute call to share some insights? It would mean a lot to me.'\n\nMost people are happy to help. You just have to ask!"
+      ]
+    },
+    {
+      "tag": "linkedin_tips",
+      "patterns": [
+        "give me linkedin profile tips",
+        "how do i use linkedin effectively as a student",
+        "how to optimize my linkedin profile for recruiters",
+        "what should my linkedin headline say as a student",
+        "how to write a good linkedin about section",
+        "how to get more linkedin connections as a fresher",
+        "how do i get noticed by recruiters on linkedin",
+        "give me tips to improve my linkedin profile",
+        "how to build a strong linkedin presence as a student",
+        "linkedin profile advice for freshers",
+        "how to make my linkedin look professional"
+      ],
+      "responses": [
+        "LinkedIn tips for students:\n\nProfile basics:\n- Professional photo (clear face, plain background)\n- Headline: 'B.Tech CSE Student | AI/ML Enthusiast | Seeking Opportunities'\n- About section: 3-4 lines about your skills and goals\n\nKey sections:\n- Education, Skills, Projects, Certifications\n- Add your GitHub and portfolio links\n\nActivity:\n- Post about projects, learnings, events\n- Engage with content in your field\n- Aim for 500+ connections\n- Turn on 'Open to Work' feature!",
+        "LinkedIn secrets students miss:\n\n1. Your headline matters most. Recruiters search by keywords.\n2. Add skills that match job descriptions\n3. Get at least 3 recommendations (professors, internship managers)\n4. Post consistently 2-3 times per week about your learning journey\n5. Engage meaningfully on others' posts. Comments beat likes.\n\nStudents who post regularly get 3x more recruiter messages!"
+      ]
+    },
+    {
+      "tag": "email_etiquette",
+      "patterns": [
+        "how do i write a professional email properly",
+        "give me formal email writing tips for students",
+        "how to write an email to my professor or teacher",
+        "how to write a cold email to a company for jobs",
+        "what is the proper format for a professional email",
+        "how do i improve my email writing skills",
+        "what should i avoid when writing formal emails",
+        "email etiquette for professional communication",
+        "how to write a job application email"
+      ],
+      "responses": [
+        "Professional Email Format:\n\nSubject: Clear and specific (e.g. 'Internship Application, [Your Name], [College]')\n\nGreeting: 'Dear [Name],' or 'Dear Sir/Madam,'\n\nBody:\n- Para 1: Who you are and purpose\n- Para 2: Why you're reaching out or what you're asking\n- Para 3: Call to action\n\nClosing: 'Thank you for your time. Looking forward to hearing from you.'\nSign-off: 'Best regards, [Name] | [Phone] | [LinkedIn]'",
+        "Email tips that get replies:\n\nDO:\n- Keep it under 150 words. Busy people skim!\n- Personalize it. Mention something specific about them.\n- One clear ask per email\n- Proofread before sending. Never send with typos!\n- Follow up after 5-7 days if no reply\n\nDON'T:\n- Use 'Respected Sir/Madam' (outdated)\n- Send CV without context\n- Use vague subject lines like 'Query'"
+      ]
+    },
+    {
+      "tag": "exam_stress",
+      "patterns": [
+        "i am feeling very stressed about my upcoming exams",
+        "how do i deal with exam anxiety effectively",
+        "i am nervous about my upcoming exam",
+        "how to handle study pressure and stress",
+        "i am feeling overwhelmed with too much to study",
+        "i think i am burning out from studying too much",
+        "how do i manage stress during exam season",
+        "i am worried about my mental health during exams",
+        "i can't focus because i am so stressed about exams"
+      ],
+      "responses": [
+        "Exam stress is real, and it's okay to feel it. Here's how to manage it:\n\nImmediate relief:\n- Take 5 deep breaths (seriously, it works!)\n- Step away for 10 minutes. A short walk helps reset.\n- Drink water and eat something\n\nStudy-side:\n- Break your syllabus into small chunks\n- Use the Pomodoro technique (25 min study, 5 min break)\n- Study the most important topics first\n\nSleep and health:\n- 7-8 hours of sleep beats all-nighters\n- Your brain consolidates memory during sleep!",
+        "You've handled every exam before this one. You'll handle this too!\n\nRemember:\n- Perfect is the enemy of good. Aim for good enough under pressure.\n- Compare yourself to your past self, not others\n- One bad exam doesn't define your future\n\nIf stress becomes overwhelming regularly, please talk to a counselor, trusted friend, or family member. You don't have to face it alone."
+      ]
+    },
+    {
+      "tag": "low_cgpa",
+      "patterns": [
+        "my cgpa is very low will it affect my placement chances",
+        "how do i recover from bad grades in college",
+        "i have low marks in college what should i do",
+        "will companies reject me because of low cgpa",
+        "how to get placed with a low cgpa",
+        "which companies hire students with low cgpa",
+        "i have a bad academic record how do i still get a good job",
+        "low cgpa placement strategy",
+        "can i get a job with 6 cgpa or below"
+      ],
+      "responses": [
+        "Low CGPA is a challenge, not the end. Many people with average grades have had great careers!\n\nCompensate with:\n- Strong projects (GitHub portfolio matters!)\n- Relevant internships\n- Certifications (Coursera, NPTEL, Google)\n- Competitive achievements (hackathons, competitions)\n- Strong communication and soft skills\n\nMany companies have dropped CGPA cutoffs, especially startups!\nFocus on: skills, projects, and networking.",
+        "Companies that hire regardless of CGPA:\n- Most startups and product companies\n- Service companies sometimes have 6.0+ cutoff\n- FAANG-type companies focus on coding skills\n\nIf you have backlogs, clear them first.\nThen build your portfolio aggressively.\nYour GitHub and LinkedIn can outweigh your marksheet!"
+      ]
+    },
+    {
+      "tag": "no_skills_yet",
+      "patterns": [
+        "i feel like i have no skills at all to offer",
+        "i do not have any technical skills what should i do",
+        "i haven't learned anything useful yet as a student",
+        "i am a complete beginner where do i even start",
+        "i feel like everyone else is way ahead of me",
+        "i have zero knowledge about programming or coding",
+        "i feel totally lost and don't know what to do",
+        "i find coding very difficult and confusing",
+        "dsa is really hard for me i don't understand it",
+        "i am struggling with basic programming concepts",
+        "i can't seem to learn coding no matter what i try",
+        "i am not good at dsa at all",
+        "i struggle with understanding data structures",
+        "i am not good at programming and feel hopeless",
+        "everything in tech feels too hard for me to learn"
+      ],
+      "responses": [
+        "First of all, everyone starts from zero. Even the people who look ahead of you felt exactly like you do right now.\n\nStart here:\n1. Pick ONE skill (Python is the best first pick for most fields)\n2. Commit to 30 minutes a day. That's it!\n3. Build one small project in your first month\n4. Share it on GitHub and LinkedIn\n\nIn 3 months of consistent effort, you'll be amazed at how far you've come. The only wrong move is not starting!",
+        "Feeling behind is normal, but it's also a signal that you care. That's a good thing!\n\nMy 3-step plan for complete beginners:\n1. Learn Python basics (2-3 weeks, free resources)\n2. Build one small project (calculator, quiz app, etc.)\n3. Post it on GitHub and LinkedIn\n\nThat one project is worth more than 10 certificates. Start today. Even 20 minutes counts!"
+      ]
+    },
+    {
+      "tag": "imposter_syndrome",
+      "patterns": [
+        "i feel like a fraud among my peers",
+        "everyone around me seems so much better than me",
+        "i don't think i belong in this field at all",
+        "i am not smart enough for this career path",
+        "i keep comparing myself to others and feeling terrible",
+        "i feel inadequate compared to my classmates",
+        "i doubt my abilities and skills all the time",
+        "i feel like i am just not good enough for this",
+        "i feel like i don't deserve to be here",
+        "why do i always feel less capable than everyone"
+      ],
+      "responses": [
+        "What you're feeling is called Imposter Syndrome, and almost every student AND professional feels it!\n\nReality check:\n- The people you compare yourself to also feel insecure sometimes\n- Social media shows highlights, not struggles\n- You were selected for this opportunity for a reason\n\nReframe it:\nInstead of 'I don't belong here' → 'I'm learning how to belong here'\nInstead of 'I'm not smart enough' → 'I'm growing every day'\n\nYour uniqueness is an asset, not a disadvantage.",
+        "Imposter syndrome tip: Document your wins!\n\nKeep a win journal. Write down every small achievement:\n- Finished a project\n- Got an internship interview\n- Understood a tough concept\n- Helped a classmate\n\nWhen you feel like a fraud, read your wins list.\n\nRemember: You're not behind. You're on YOUR timeline."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "i am feeling very demotivated right now",
+        "i am losing my confidence and drive",
+        "can you encourage me and motivate me",
+        "i feel completely stuck and don't know what to do",
+        "i need some motivation to keep going",
+        "i feel like giving up on everything",
+        "i don't feel like studying or working anymore",
+        "i am not making any progress and feel hopeless",
+        "i need encouragement to keep pushing forward",
+        "i feel like nothing is working out for me"
+      ],
+      "responses": [
+        "Hey, it's okay to feel this way — every successful person has been exactly where you are right now.\n\nRemember:\n- You don't need to be the best today. You just need to be better than yesterday.\n- Every expert was once a beginner.\n- The fact that you're worried means you care — and caring is the first step.\n\nTake a deep breath, take one small step today, and trust the process. You've got this!",
+        "Success comes from consistency, not perfection.\n\nThink about it this way:\n- 1% better every day = 37x better in a year\n- You don't need a perfect plan. You need to START.\n- Every small win builds momentum.\n\nWhat's one thing you can do in the next 30 minutes to move forward? Start there.",
+        "Feeling stuck is part of the journey — not a sign that you're failing.\n\nSome things to remember:\n- Comparison is the thief of joy. Everyone's timeline is different.\n- Your background doesn't determine your future. Your effort does.\n- Small daily efforts lead to big achievements over time.\n\nYou're not behind. You're exactly where you need to be, as long as you keep going."
+      ]
+    },
+    {
+      "tag": "time_management",
+      "patterns": [
+        "how do i manage my time better as a student",
+        "i waste a lot of time every day and feel guilty",
+        "how do i stop procrastinating on my studies",
+        "give me productivity tips for college students",
+        "how do i make a proper study schedule that works",
+        "how to be more productive and focused as a student",
+        "how do i balance studies and skill building together",
+        "i keep putting things off how do i fix that habit",
+        "time management techniques for engineering students"
+      ],
+      "responses": [
+        "Time management for students:\n\nKey techniques:\n- Pomodoro: 25 min focus + 5 min break (best for studying)\n- Time blocking: assign specific tasks to specific hours\n- Eat the frog: do your hardest task first\n- 2-minute rule: if it takes less than 2 min, do it now\n\nReduce distractions:\n- Phone in another room while studying\n- Use apps like Forest or Cold Turkey\n- Study in a library or quiet space\n\nWeekly planning:\n- Every Sunday, plan your week in 15 minutes",
+        "The real reason we procrastinate: the task feels too big or unclear.\n\nFix it by:\n- Breaking tasks into tiny steps (not 'study DSA' but 'do 2 array problems')\n- Starting with just 2 minutes. Momentum builds!\n- Having an accountability partner\n\nRule: Don't optimize your schedule. Just START. A 60% effort you actually do beats a 100% plan you don't!"
+      ]
+    },
+    {
+      "tag": "backlog_guidance",
+      "patterns": [
+        "i have backlogs in my college subjects what do i do",
+        "how do i clear my backlogs fast before placements",
+        "i failed a few subjects what should i do now",
+        "i have arrears will it affect my placement chances",
+        "can i get placed with backlogs in my degree",
+        "how do i handle failed exams and still get a job",
+        "i have a supplementary exam coming up any advice",
+        "arrears in engineering how to manage career",
+        "placement strategy for students with backlogs"
+      ],
+      "responses": [
+        "Having backlogs is stressful, but it's manageable. Here's the plan:\n\nAcademic side:\n- Clear all backlogs ASAP. Prioritize this above everything.\n- Study previous year papers. Most backlog exams repeat questions.\n- Form a study group for backlog subjects\n\nCareer side:\n- Many companies DO filter based on backlogs (check each company's policy)\n- Startups are generally more flexible about backlogs\n- Strong skills and projects can compensate significantly\n- Be honest in interviews if asked. Explain your plan to clear them.",
+        "Companies and backlogs:\n\nStrict about it: TCS, Infosys, Wipro (large IT services)\nMore flexible: Startups, product companies, some MNCs\n\nStrategy:\n1. Clear your backlogs first. Non-negotiable.\n2. Build a strong technical portfolio\n3. Apply to companies that don't have strict academic filters\n4. Consider GATE or higher studies to reset your academic profile"
+      ]
+    },
+    {
+      "tag": "project_ideas",
+      "patterns": [
+        "give me some project ideas to put on my resume",
+        "what projects should i build as a student to impress recruiters",
+        "suggest final year project ideas for cs students",
+        "what are good mini project ideas for beginners",
+        "give me python project ideas for my portfolio",
+        "what ml projects can i build to impress recruiters",
+        "suggest web development projects for beginners",
+        "what projects should i make to get a good job",
+        "best beginner project ideas for engineering students"
+      ],
+      "responses": [
+        "Project ideas by domain:\n\nAI/ML:\n- Student performance predictor\n- Spam email classifier\n- Movie recommendation system\n- Fake news detector\n- AI chatbot (like this one!)\n\nWeb Dev:\n- Portfolio website\n- Todo app with auth\n- Blog platform\n- Job board clone\n- E-commerce frontend\n\nData Science:\n- COVID-19 data analysis\n- Stock price visualization\n- IPL/sports statistics dashboard\n\nRule: Pick something YOU find interesting. Passion shows in projects!",
+        "Best project strategy for resume:\n\n1. Solve a REAL problem (not just tutorials)\n2. Use real datasets (Kaggle, government data portals)\n3. Deploy it online (Vercel, Streamlit, Hugging Face)\n4. Put it on GitHub with a good README\n5. Write a LinkedIn post about what you learned\n\nA deployed project that works beats 5 half-finished tutorial projects!"
+      ]
+    },
+    {
+      "tag": "choose_electives",
+      "patterns": [
+        "how do i choose the right electives in college",
+        "which elective subjects should i take for placements",
+        "what electives are useful for placement interviews",
+        "how do i pick optional subjects in my college",
+        "which electives are best for a cs or it student",
+        "give me advice on choosing college elective subjects",
+        "elective selection strategy for engineering students",
+        "which optional subjects help in getting placed"
+      ],
+      "responses": [
+        "How to choose electives wisely:\n\nStrategy:\n- Choose electives aligned with your career goal\n- Check if the subject is asked in placement interviews\n- Consider professor quality. A good teacher makes any subject valuable.\n- Don't just go with friends. Think about your own goals.\n\nHigh-value electives for CS/IT:\n- Machine Learning / AI\n- Cloud Computing\n- Cybersecurity\n- Data Mining\n- Mobile App Development\n\nThese show up frequently in placement tech rounds!",
+        "Elective selection tip:\n\nAsk yourself: 'Will this help me in my career or placement?'\n\nIf YES: prioritize it\nIf NO: choose based on interest or easy scoring\n\nAlso check: Does this elective have a lab component? Practical electives are more valuable for your portfolio than theory-only ones!"
+      ]
+    },
+    {
+      "tag": "cybersecurity_career",
+      "patterns": [
+        "how do i start a career in cybersecurity",
+        "tell me the cybersecurity career roadmap",
+        "how do i learn ethical hacking from scratch",
+        "what does a security analyst do in their job",
+        "how to become an ethical hacker professionally",
+        "what are cybersecurity job options for freshers",
+        "i want to learn about information security",
+        "how to get into cybersecurity as a career",
+        "is cybersecurity a good career for engineers"
+      ],
+      "responses": [
+        "Cybersecurity is one of the fastest-growing fields with massive demand!\n\nRoadmap:\n1. Networking basics (TCP/IP, OSI model)\n2. Linux fundamentals\n3. Security concepts (CIA triad, threats, vulnerabilities)\n4. Ethical Hacking tools (Kali Linux, Nmap, Metasploit)\n5. Certifications: CompTIA Security+, CEH, OSCP\n\nFree resources:\n- TryHackMe.com (best beginner platform!)\n- Hack The Box\n- Professor Messer (YouTube) for Security+",
+        "Cybersecurity career paths:\n- Ethical Hacker / Penetration Tester\n- Security Analyst (SOC)\n- Cloud Security Engineer\n- Malware Analyst\n- Digital Forensics Expert\n\nStart with TryHackMe — it's free, gamified, and perfect for beginners!\nCertifications to target: CompTIA Security+, then CEH or OSCP."
+      ]
+    },
+    {
+      "tag": "cloud_computing",
+      "patterns": [
+        "tell me about a career in cloud computing",
+        "what is the aws learning roadmap for beginners",
+        "how do i learn microsoft azure from scratch",
+        "how to become a cloud engineer",
+        "what are cloud computing career options for freshers",
+        "how do i learn aws from scratch",
+        "tell me about google cloud career path",
+        "how to get into devops and cloud computing",
+        "is cloud computing a good career after engineering"
+      ],
+      "responses": [
+        "Cloud Computing is booming — every company is moving to the cloud!\n\nRoadmap:\n1. Linux basics\n2. Networking fundamentals\n3. Pick a cloud: AWS (most popular), Azure, or GCP\n4. Learn Docker and Kubernetes\n5. Get certified!\n\nTop certifications:\n- AWS Solutions Architect (most in-demand)\n- Microsoft AZ-900 (beginner Azure)\n- Google Associate Cloud Engineer\n\nFree resources: AWS Free Tier, Google Cloud Skills Boost, Microsoft Learn",
+        "Cloud career paths:\n- Cloud Engineer\n- DevOps Engineer\n- Cloud Architect\n- Site Reliability Engineer (SRE)\n\nAWS is the most popular platform — start with AWS Cloud Practitioner (easiest cert), then Solutions Architect.\nAWS Free Tier lets you practice for free!"
+      ]
+    },
+    {
+      "tag": "data_science_career",
+      "patterns": [
+        "how do i start a career in data science",
+        "what is the data analyst career roadmap",
+        "how do i become a data scientist as a fresher",
+        "tell me about analytics careers for engineers",
+        "what skills do i need for data science roles",
+        "how to get into business intelligence as a career",
+        "tell me about data engineering as a career path",
+        "data science vs data analyst which is better",
+        "how to become a data analyst after engineering"
+      ],
+      "responses": [
+        "Data Science is one of the most in-demand fields right now!\n\nSkills needed:\n- Python (NumPy, Pandas, Matplotlib)\n- SQL (must-have!)\n- Statistics and Probability\n- Machine Learning basics\n- Data Visualization (Tableau, Power BI)\n- Real-world projects on Kaggle\n\nRoles to explore:\n- Data Analyst (easier entry point)\n- Data Scientist\n- Data Engineer\n- Business Intelligence Analyst",
+        "Data Science roadmap:\n\nMonth 1-2: Python + SQL basics\nMonth 3: Statistics + Pandas\nMonth 4: Machine Learning (Andrew Ng course)\nMonth 5-6: Projects on Kaggle + build portfolio\n\nStart as a Data Analyst — it's an easier entry point and the skills overlap completely with Data Science!"
+      ]
+    },
+    {
+      "tag": "salary_expectation",
+      "patterns": [
+        "what is the salary after btech for freshers in india",
+        "what is the starting salary in tech for freshers",
+        "how much do freshers earn in india after engineering",
+        "what is the expected ctc after engineering graduation",
+        "what package can i expect in ai after graduation",
+        "what is the salary in web development for freshers",
+        "how much does a data scientist earn as a fresher",
+        "average salary for engineering freshers in india",
+        "what lpa can i expect in my first job"
+      ],
+      "responses": [
+        "Fresher salary ranges in India (approximate):\n\n- IT Services (TCS, Infosys, Wipro): 3-4.5 LPA\n- Mid-tier product companies: 6-12 LPA\n- Top product companies (Google, Microsoft, etc.): 20-40+ LPA\n- Startups: varies widely (3-20 LPA)\n- Data Science / AI roles: 5-15 LPA for freshers\n\nWhat increases your package:\n- Strong DSA and coding skills\n- Internship experience\n- Good projects and GitHub profile\n- Competitive programming achievements",
+        "Salary depends heavily on skills, not just your degree!\n\nThe formula for a good package:\nStrong Skills + Good Projects + Internship Experience + Interview Prep = Higher CTC\n\nFocus on building skills first — the salary will follow.\nA fresher at a startup with good skills can earn more than a fresher at a big IT firm!\n\nAlso explore GATE → PSU route for stable 8-12 LPA government jobs."
+      ]
+    },
+    {
+      "tag": "startup_vs_mnc",
+      "patterns": [
+        "should i join a startup or an mnc for my first job",
+        "which is better startup or big company for freshers",
+        "what are the pros and cons of startup vs corporate",
+        "is a startup career better than mnc for freshers",
+        "should i join a startup for my first job after college",
+        "what are the differences between startup and mnc culture",
+        "startup vs mnc first job which should i choose",
+        "i got offers from a startup and mnc which to pick"
+      ],
+      "responses": [
+        "Startup vs MNC — here's the honest comparison:\n\nStartups:\n- Faster learning (wear multiple hats)\n- More responsibility from day 1\n- Higher risk, higher reward\n- Flexible culture\n- Equity / ESOPs possible\n\nMNCs:\n- Structured learning and training\n- Brand name on resume\n- Job stability\n- Slower growth but safer\n- Better work-life balance (usually)\n\nFor freshers: if you're a fast learner who can handle ambiguity → startup. If you want structured growth → MNC.",
+        "My honest take:\n\nJoin a startup if:\n- You want to learn fast and take ownership\n- You're okay with some uncertainty\n- You want to build something meaningful\n\nJoin an MNC if:\n- You want brand name recognition\n- You prefer stability and structure\n- You plan to do MBA later (MNC experience helps)\n\nBoth are valid paths! The best choice depends on your personality and goals."
+      ]
+    },
+    {
+      "tag": "choose_programming_language",
+      "patterns": [
+        "which programming language should i learn first",
+        "i am confused about which coding language to choose",
+        "python vs java vs c++ which is better for placements",
+        "should i learn python or java for placement preparation",
+        "which coding language is best for complete beginners",
+        "what language should i start with for learning dsa",
+        "python or javascript which should i pick first",
+        "i don't know which programming language to learn",
+        "is c++ better than python for competitive programming",
+        "what language do most software companies use",
+        "which language is best for getting a software job",
+        "should i learn c or python first as a beginner"
+      ],
+      "responses": [
+        "The language confusion is real — but here's the honest truth: the language matters less than your problem solving skills!\n\nThat said, here's a practical guide:\n\nFor DSA and Placements:\n- C++ → fastest execution, best for competitive programming, preferred in top product companies\n- Java → verbose but great for interviews, strong OOPs\n- Python → simplest syntax, great for beginners, slower but accepted everywhere\n\nFor AI/ML/Data Science:\n- Python — no debate, it's the only real choice\n\nFor Web Development:\n- JavaScript — mandatory for frontend\n- Python (Django/Flask) or JavaScript (Node.js) for backend\n\nMy recommendation for beginners: Start with Python. Learn the concepts. Then switch to C++ for DSA if needed.",
+        "Quick language guide based on your goal:\n\nGoal → Best Language:\n- Get placed at any company → Python or Java\n- Crack product companies (Google/Amazon) → C++ or Java\n- AI / Machine Learning → Python (non-negotiable!)\n- Web Development → JavaScript (frontend) + Python or Node.js (backend)\n- Competitive Programming → C++ (fastest, most powerful)\n- Android Development → Kotlin or Java\n\nRemember: Knowing one language deeply beats knowing five languages poorly. Pick one, master it, then expand!"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "Hmm, I'm not sure I understood that. Could you rephrase? I'm best at helping with careers, internships, placements, learning resources, and student life!",
+        "I didn't quite catch that! Try asking something like:\n- 'How do I prepare for placements?'\n- 'Best Python resources?'\n- 'How to find internships?'",
+        "That's a bit outside my knowledge! But feel free to ask me about careers, internships, placements, learning paths, or soft skills. That's where I shine!"
+      ]
+    }
+  ]
+}
