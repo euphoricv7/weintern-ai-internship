@@ -1,4 +1,4 @@
-# WeIntern AIML Internship — Week 1 Assignment
+# WeIntern AI Internship — Week 1 Assignment
 **Organization:** WeIntern Pvt Ltd
 
 
@@ -124,4 +124,4 @@ aiml-week1-assignment/
 ---
 
 ## Author
-**Vratika Kumawat** | WeIntern AIML Internship 2025
+**Vratika Kumawat** | WeIntern AI Internship 2025
