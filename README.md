@@ -14,9 +14,6 @@ This repository contains all weekly project submissions for the WeIntern AI Inte
 weintern-ai-internship/
 ├── Week-1-Data-Analysis/        # Student performance data analysis and visualization
 └── Week-2/                      # AI application development
-    ├── Task-1-Student-Chatbot/  # Hybrid NLP chatbot with Gemini AI fallback
-    ├── Task-2-Resume-Screening/ # AI-powered resume screener using Sentence-BERT
-    └── Task-3-Content-Generator/# Multi-tone AI content generator using Gemini
 ```
 
 ---
@@ -27,9 +24,9 @@ Exploratory data analysis on a student performance dataset.
 
 | Task | Description | Status |
 |---|---|---|
-| Task 1 | Data Cleaning & Analysis | Complete |
-| Task 2 | Data Visualization (8 charts) | Complete |
-| Task 3 | Business Insight Report | Complete |
+| Task 1 | Data Cleaning & Analysis |
+| Task 2 | Data Visualization (8 charts) |
+| Task 3 | Business Insight Report |
 
 **Tech stack:** Python, Pandas, Matplotlib, Seaborn, Google Colab
 
