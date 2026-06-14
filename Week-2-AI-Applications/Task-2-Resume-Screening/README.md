@@ -49,10 +49,11 @@
 Task-2-Resume-Screening/
 │
 ├── app.py                          # Main Streamlit application
-├── job_descriptions_complete.csv   # Sample JD dataset (25 job roles)
-├── realistic_resume_dataset_100.csv # Sample resume dataset (100 candidates)
-├── requirements.txt                # Python dependencies
-│
+├── dataset/
+│   ├── job_descriptions_complete.csv    # Sample JD dataset (25 job roles)
+│   ├── realistic_resume_dataset_100.csv # Sample resume dataset(csv) (100 candidates)
+│   └── resume dataset pdf/              # Sample resume dataset(pdf)
+├── requirements.txt              
 ├── responses/                      # Demo outputs
 │   ├── screenshot1.png             # Main UI
 │   ├── screenshot2.png             # Resultant leaderboard
