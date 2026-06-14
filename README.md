@@ -13,7 +13,7 @@ This repository contains all weekly project submissions for the WeIntern AI Inte
 ```
 weintern-ai-internship/
 ├── Week-1-Data-Analysis/        # Student performance data analysis and visualization
-├── Week-2-AI-Applications/        # AI application development
+├── Week-2-AI-Applications/      # AI application development
 └── README.md 
 ```
 
