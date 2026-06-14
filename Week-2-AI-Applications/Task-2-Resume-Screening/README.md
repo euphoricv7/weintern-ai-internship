@@ -56,7 +56,7 @@ Task-2-Resume-Screening/
 ├── responses/                      # Demo outputs
 │   ├── screenshot1.png             # Main UI
 │   ├── screenshot2.png             # Resultant leaderboard
-│   ├── screenshot3.png
+│   └── screenshot3.png 
 │
 │
 └── README.md
