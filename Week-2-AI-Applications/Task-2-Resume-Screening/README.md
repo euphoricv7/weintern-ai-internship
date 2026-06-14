@@ -12,7 +12,7 @@
 *Upload JD and resume dataset, select a job role, and screen candidates*
 
 ![Screening Results - Leaderboard](responses/screenshot2.png)
-*Ranked candidates with match scores, skill tags, progress bars, and verdicts*
+*Ranked candidates with match scores, education, experience, skill tags, progress bars, and verdicts*
 
 ---
 
