@@ -5,7 +5,11 @@
 > WeIntern Pvt Ltd · AI Internship · Week 2, Task 2
 
 ---
+## Live Demo
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://weintern-ai-internship-bzksfizkomydteojymtcmw.streamlit.app)
+
+---
 ## Demo
 
 ![Resume Screening AI - Main UI](responses/screenshot1.png)
