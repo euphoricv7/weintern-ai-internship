@@ -7,7 +7,7 @@
 ---
 ## Live Demo
 
-[![Open in Streamlit]](https://weintern-ai-internship-bzksfizkomydteojymtcmw.streamlit.app)
+[Open in Streamlit](https://weintern-ai-internship-bzksfizkomydteojymtcmw.streamlit.app)
 
 ---
 ## Demo
