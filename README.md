@@ -13,10 +13,8 @@ This repository contains all weekly project submissions for the WeIntern AI Inte
 ```
 weintern-ai-internship/
 ├── Week-1-Data-Analysis/        # Student performance data analysis and visualization
-└── Week-2-AI-Applications/        # AI application development
-    ├── Task-1-Student-Chatbot/  # Hybrid NLP chatbot with Gemini AI fallback
-    ├── Task-2-Resume-Screening/ # AI-powered resume screener using Sentence-BERT
-    └── Task-3-Content-Generator/# Multi-tone AI content generator using Gemini
+├── Week-2-AI-Applications/        # AI application development
+└── README.md 
 ```
 
 ---
