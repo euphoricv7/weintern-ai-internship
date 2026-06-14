@@ -2,6 +2,7 @@ import streamlit as st
 import pdfplumber
 import nltk
 import pandas as pd
+import re
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 from nltk.corpus import stopwords
@@ -96,6 +97,7 @@ st.markdown("""
 .top-label { font-size: 0.7rem; color: #a78bfa; letter-spacing: 0.1em; text-transform: uppercase; }
 .top-name { font-size: 1.3rem; font-weight: 700; color: #f3e8ff; margin-top: 0.2rem; }
 .top-skills { font-size: 0.75rem; color: #c084fc; margin-top: 0.2rem; }
+.top-meta { font-size: 0.72rem; color: #a78bfa; margin-top: 0.15rem; }
 .top-score { font-size: 2.8rem; font-weight: 800; color: #ffcc00; }
 
 .row {
@@ -116,6 +118,7 @@ st.markdown("""
 .rank.bronze { color: #cd7f32; }
 .rank.other { color: #a78bfa; font-size: 0.8rem; }
 .cname { font-weight: 600; color: #f3e8ff; font-size: 0.88rem; min-width: 130px; }
+.cmeta { font-size: 0.68rem; color: #7c3aed; min-width: 160px; }
 .skills { font-size: 0.72rem; color: #a78bfa; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .bar-wrap { min-width: 90px; }
 .bar-bg { background: rgba(139,92,246,0.2); border-radius: 999px; height: 5px; }
@@ -207,12 +210,19 @@ SKILL_KEYWORDS = [
     "node.js", "react", "spring boot", "kubernetes", "docker", "ci/cd"
 ]
 
+EDUCATION_KEYWORDS = [
+    "b.tech", "btech", "b.e", "be ", "b.sc", "bsc", "m.tech", "mtech",
+    "m.sc", "msc", "mba", "phd", "bachelor", "master", "degree",
+    "engineering", "computer science", "information technology",
+    "electronics", "mechanical", "civil", "diploma", "10th", "12th",
+    "graduate", "postgraduate", "university", "college", "institute"
+]
+
 # ─── Functions ─────────────────────────────────────────────
 def preprocess_text(text):
     text = text.lower()
     tokens = word_tokenize(text)
-    tokens = [t for t in tokens if t.isalpha() and t not in stop_words]
-    tokens = [lemmatizer.lemmatize(t) for t in tokens]
+    tokens = [lemmatizer.lemmatize(w) for w in tokens if w.isalpha() and w not in stop_words]
     return " ".join(tokens)
 
 def extract_text_from_pdf(pdf_file):
@@ -228,6 +238,38 @@ def extract_skills(text):
     text_lower = text.lower()
     return [skill for skill in SKILL_KEYWORDS if skill in text_lower]
 
+def extract_education(text):
+    text_lower = text.lower()
+    found = [kw for kw in EDUCATION_KEYWORDS if kw in text_lower]
+    if not found:
+        return "Not specified"
+    # Return the most specific match
+    priority = ["phd", "m.tech", "mtech", "mba", "m.sc", "msc", "b.tech", "btech", "b.e", "b.sc", "bsc", "diploma", "bachelor", "master", "degree"]
+    for p in priority:
+        if p in found:
+            return p.upper()
+    return found[0].title()
+
+def extract_experience(text):
+    text_lower = text.lower()
+    # Look for patterns like "2 years", "3+ years", "5 months experience"
+    patterns = [
+        r'(\d+)\+?\s*years?\s*(?:of\s*)?experience',
+        r'experience\s*(?:of\s*)?(\d+)\+?\s*years?',
+        r'(\d+)\+?\s*months?\s*(?:of\s*)?experience',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text_lower)
+        if match:
+            num = match.group(1)
+            if "month" in pattern:
+                return f"{num} months"
+            return f"{num} years"
+    # Check for fresher keywords
+    if any(w in text_lower for w in ["fresher", "fresh graduate", "no experience", "entry level"]):
+        return "Fresher"
+    return "Not specified"
+
 def compute_similarity_sbert(job_desc, resumes_dict):
     names = list(resumes_dict.keys())
     texts = list(resumes_dict.values())
@@ -237,6 +279,8 @@ def compute_similarity_sbert(job_desc, resumes_dict):
     results = []
     for i, name in enumerate(names):
         skills = extract_skills(texts[i])
+        education = extract_education(texts[i])
+        experience = extract_experience(texts[i])
         score = round(float(similarities[i]) * 100, 2)
         if score >= 50:
             verdict = "✅ Strong"
@@ -251,6 +295,8 @@ def compute_similarity_sbert(job_desc, resumes_dict):
             "Candidate": name,
             "Match Score (%)": score,
             "Top Skills": ", ".join(skills) if skills else "None found",
+            "Education": education,
+            "Experience": experience,
             "Verdict": verdict,
             "color": color
         })
@@ -282,12 +328,13 @@ def display_results(results):
             <div class="top-label">🏆 Top Candidate</div>
             <div class="top-name">{top['Candidate']}</div>
             <div class="top-skills">🛠 {top['Top Skills']}</div>
+            <div class="top-meta">🎓 {top['Education']} &nbsp;|&nbsp; 💼 {top['Experience']}</div>
         </div>
         <div class="top-score">{top['Match Score (%)']}%</div>
     </div>
     """, unsafe_allow_html=True)
 
-    # Download at top
+    # Download
     st.markdown('<div class="section-header">📥 Export Results</div>', unsafe_allow_html=True)
     df_download = pd.DataFrame([{k: v for k, v in r.items() if k != "color"} for r in results])
     df_download.index = range(1, len(df_download) + 1)
@@ -299,6 +346,17 @@ def display_results(results):
 
     # Rankings
     st.markdown('<div class="section-header">🏅 Full Rankings</div>', unsafe_allow_html=True)
+    st.markdown("""
+<div class="row" style="opacity:0.5; font-size:0.7rem; color:#a78bfa; font-weight:600;">
+    <div style="min-width:32px"></div>
+    <div style="min-width:130px">Candidate</div>
+    <div style="min-width:160px">Education · Experience</div>
+    <div style="flex:1">Skills</div>
+    <div style="min-width:90px">Match</div>
+    <div style="min-width:48px"></div>
+    <div style="min-width:80px">Verdict</div>
+</div>
+""", unsafe_allow_html=True)
     for i, r in enumerate(results):
         rank = i + 1
         color = r["color"]
@@ -314,6 +372,7 @@ def display_results(results):
         <div class="row">
             <div class="rank {rank_class}">{rank_icon}</div>
             <div class="cname">{r['Candidate']}</div>
+            <div class="cmeta">🎓 {r['Education']} · 💼 {r['Experience']}</div>
             <div class="skills">{r['Top Skills']}</div>
             <div class="bar-wrap">
                 <div class="bar-bg"><div class="bar-fill {color}" style="width:{bar_width}%"></div></div>
