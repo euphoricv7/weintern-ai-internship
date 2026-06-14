@@ -11,7 +11,7 @@
 ![AI Content Generator - Main UI](responses/screenshot1.png)
 *Select content type, tone, enter your topic and generate*
 
-![Generated Variations - LinkedIn Post](responses/screenshot2.png)
+![Generated Variations - Social Media Caption](responses/screenshot3.png)
 *3 variations in tabs with word count, character count, copy and regenerate options*
 
 ---
